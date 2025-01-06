@@ -12,6 +12,5 @@ class Input
         name=input.next();
         System.out.println("the number ="+number);
         System.out.println(name);
-
     }
 }
