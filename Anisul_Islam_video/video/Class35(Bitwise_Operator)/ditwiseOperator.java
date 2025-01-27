@@ -15,6 +15,16 @@ class Bitwise_Operator
        System.out.println("Bitwise number1 | number2 :"+number3);
        number3=number1^number2;
        System.out.println("Bitwise number1 ^ number2 :"+number3);
+       number3=number1<<2;
+       System.out.println("Bitwise number1 << 2 :"+number3);
+       number3=number2<<2;
+       System.out.println("Bitwise number2 << 2 :"+number3);
+       number3=number1>>2;
+       System.out.println("Bitwise number1 >> 2 :"+number3);
+       number3=number2>>2;
+       System.out.println("Bitwise number2 >> 2 :"+number3);
+       number3=number1^number2;
+       
         
 
     }
