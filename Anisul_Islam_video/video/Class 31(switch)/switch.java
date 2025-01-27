@@ -21,12 +21,12 @@ class Switch
             }
             case 3:
             {
-                System.out.println("Two");
+                System.out.println("Three");
                 break;
             }
             case 5:
             {
-                System.out.println("Two");
+                System.out.println("TFive");
                 break;
             }
             default:
