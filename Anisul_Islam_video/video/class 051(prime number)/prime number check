@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+class class51
+{
+   
+    public static void main(String[] args) {
+       Scanner input =new Scanner(System.in);
+       System.out.print("Enter the number :");
+       int prime = input.nextInt();
+       boolean count=true;
+       for(int i=2;i<prime;i++)
+       {
+        if(prime%i==0)
+        {
+            count=false;
+            break;
+        }
+       }
+       if(count)
+       {
+        System.out.println("this number prime");
+       }
+       else
+       System.out.println("This number not prime");
+      
+    }
+   
+}
